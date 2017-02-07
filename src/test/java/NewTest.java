@@ -10,9 +10,9 @@ public class NewTest {
 	    private WebDriver driver;		
 		@Test				
 		public void testEasy() {	
-			driver.get("http://www.guru99.com/selenium-tutorial.html");  
+			driver.get("http://www.google.com");  
 			String title = driver.getTitle();				 
-			Assert.assertTrue(title.contains("Free Selenium Tutorials")); 		
+			Assert.assertTrue(title.contains("Google")); 		
 		}	
 		@BeforeTest
 		public void beforeTest() {	
